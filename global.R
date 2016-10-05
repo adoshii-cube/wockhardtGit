@@ -13,7 +13,7 @@ library(shinysky)
 
 #Declare Default login as false
 Logged = FALSE;     ##### Change to FALSE before deploying
-Psw=data.frame(my_username="Z",my_password="Z",display_name="ABCDEFGHI")
+Psw=data.frame(my_username="A",my_password="A",display_name="ABCDEFGHI")
 
 newtab = "dashboard"
 
