@@ -1,0 +1,666 @@
+/* START: Standard across all devices */
+body{
+	background-color:#eeeeee !important;
+}
+
+.skin-black .main-header>.logo {
+	background-color: #ff9800;
+	font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+	color: #00ff00;
+	border: none;
+	width: 100%;
+}
+
+#body{
+	/* top: -2%; */
+    position: absolute;
+    z-index: 1100;
+    width: 100%;
+}
+
+.skin-black .main-header>.logo:hover {
+    background-color: #eeeeee;
+}
+
+.skin-black .main-header > .logo:hover {
+  background-color: #ff9800;
+}
+
+.content-wrapper{
+  background-color: #eeeeee;
+  /* width: 80%; */
+}
+
+.skin-black .main-header > .navbar {
+  background-color: #ff9800;
+/*   display: none; */
+}
+
+.skin-black .main-header > .navbar .sidebar-toggle {
+  display: none;
+}
+
+.sidebar-menu>li{
+	display: none;
+}
+
+.skin-black .wrapper, /* <- ALL TEXT on DASHBOARD (from RStudio side ONLY)*/
+.skin-black .main-sidebar,
+.skin-black .left-side {
+	background-color: #eeeeee; /*Sidebar Fill color*/
+}
+
+.skin-black .control-label {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size:14px;
+	color: #333;
+}
+
+.skin-black .selectize-input {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size:14px;
+}
+
+.selectize-input.focus {
+    border-color: #ff9800 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(251, 152, 0, 0.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(251, 152, 0, 0.6) !important;
+}
+
+.shiny-input-checkboxgroup label ~ .shiny-options-group, .shiny-input-radiogroup label ~ .shiny-options-group{
+	color: #333;
+}
+
+.skin-black .box-header{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size:14px;
+}
+
+.skin-black .box-body{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size:14px;
+	text-align: center;
+}
+
+.box{
+	border-top: 0;
+	/* margin-bottom: 10px; */
+	box-shadow: none;
+}
+
+.small-box {
+	margin-bottom: 0px;
+}
+
+.small-box h3 {
+	font-size: 24px;
+    font-weight: 100;
+    font-family: 'Open Sans';
+}
+
+.small-box p {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.small-box>.inner{
+	text-align: left;
+}
+
+.small-box .icon-large {
+    position: absolute;
+    top: auto;
+    bottom: 0.2em;
+    right: 15px;
+    font-size: 40px;
+    color: rgba(255,255,255,0.5);
+}
+
+.bg-orange {
+    background-color: #ff9800!important;
+}
+
+.bg-blue {
+    background-color: #2196F3!important;
+}
+
+.bg-teal {
+    background-color: #009688!important;
+}
+
+.bg-green {
+    background-color: #4caf50!important;
+}
+
+#tab2_hiring, #tab2_attrition, #tab2_performance, #tab2_engagement{
+	color: #000;
+	font-size: 24px;
+}
+
+#tab2_hiring:hover, #tab2_attrition:hover, #tab2_performance:hover, #tab2_engagement:hover{
+	color: #ff9800;
+	border-bottom: 1px solid #ff9800;
+}
+
+label{
+	font-family: "Open Sans";
+}
+
+.nav-tabs-custom>.nav-tabs>li>a:hover {
+    color: #ff9800;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #ff9800;
+}
+
+/* LOGIN */
+div.box-body .shiny-input-container {
+    width: auto;
+	text-align: left;
+}
+/* LOGIN */
+
+.btn.active, .btn:active{
+	box-shadow: none;
+}
+
+#dashboard_tab1:active, #dashboard_tab2:active, #dashboard_tab3:active{
+	text-decoration:underline;
+}
+
+#nav_tab1_to_tab2, #nav_tab1_to_tab3,
+#nav_tab2_to_tab1, #nav_tab2_to_tab3,
+#nav_tab3_to_tab1, #nav_tab3_to_tab2{
+	background-color: rgba(0, 0, 0, 0);
+	color:#ffffff;
+	border: none;
+	outline: none;
+}
+
+.tooltip-inner{
+	font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+	color: #000;
+	background:white;
+	border: 1px solid #ff9800;
+}
+
+.tooltip.top .tooltip-arrow{
+	border-top-color:#ff9800;
+}
+
+.selection_pane_label{
+	font-family: 'Open Sans';
+	font-size: 14px;
+		color: #0F0F0F;
+	width: 100%;
+	white-space: normal;	
+}
+
+svg{
+	font-family: 'Open Sans' !important;
+	font-weight: 600;
+}
+
+svg text{
+	text-shadow: none !important;
+}
+
+.pvtRows, .pvtCols {
+    background: #ffffff none repeat scroll 0 0 !important;
+}
+
+.highcharts-container p{
+	color: #ff9800;
+	font-family: "Open Sans SemiBold", sans-serif;
+    font-size: 20px;
+}
+
+.btn-default{
+	font-family: "Open Sans SemiBold", sans-serif;
+}
+
+.box_tab2 .col-sm-6{
+	text-align: left;
+}
+/* 
+.shiny-output-error { visibility: hidden; }
+.shiny-output-error:before { visibility: hidden; } */
+
+
+/* END: Standard across all devices */
+
+
+/* START (1280x1024) SXGA Display */
+@media  screen and (min-width: 1280px) {
+    
+	[class*='col-']{
+		padding-right:15px !important;
+	}
+	
+	.skin-black .main-header>.logo a img {
+		height: 45px;
+		margin-top: 0.125em;
+		float: left;
+	}
+	
+	.navigation{
+		position: absolute;
+		width: 78%;
+		top: -11px;
+		z-index: 1030;
+	}
+	
+	.skin-black .navigation .box-body {
+		background: #ff9800;
+		padding: 0;
+		margin-top: 1.7%;
+	}
+	
+	.user_name{
+		color: #FFF; 
+		font-size: 16px; 
+		text-align: right;
+	}
+
+	.user_name_link_logout{
+		text-align: right;
+	}
+	
+	.user_name_link_logout a{
+		color: #FFF; 
+		font-size: 12px;
+		text-align: right;
+	}
+	
+	#dashboardBody > .row > .col-sm-8 {
+		width: 25%;
+	}
+	
+	.sidebar-dashboard, .sidebar-analysis, .sidebar-focusareas, .sidebar-explore, .sidebar-responses,
+	.email-help{
+		background: #ffffff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 15px;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+		font-size: 14px;
+			color: #0F0F0F;
+		width: 100%;
+		white-space: normal;
+	}
+	
+	#tab1, #tab2, #tab3 {
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0);
+		color: #ffffff;
+		/* background-repeat: no-repeat; */
+		border: none;
+		/* cursor: pointer; */
+		/* overflow: hidden; */
+		outline: none;
+		padding-bottom: 9%;
+		border-bottom: 4px solid white;
+		/* font: 14px Open Sans SemiBold; */
+		font-weight: 700;
+	}
+	
+	.box_tab2 .box{
+		/* height: 400px; */
+	}
+}
+ /* END (1280x1024) SXGA Display */
+
+ /* START (1366x768) WXGA Display */
+@media  screen and (min-width: 1366px) {
+
+	[class*='col-']{
+		padding-right:15px !important;
+	}
+	
+	.skin-black .main-header>.logo a img {
+		height: 45px;
+		margin-top: 0.125em;
+		float: left;
+	}
+	
+	.navigation{
+		position: absolute;
+		width: 78%;
+		top: -14px;
+		z-index: 1030;
+	}
+	
+	.skin-black .navigation .box-body {
+		background: #ff9800;
+		padding: 0;
+		margin-top: 1.9%;
+	}
+	
+	.user_name{
+		color: #FFF; 
+		font-size: 16px; 
+		text-align: right;
+	}
+
+	.user_name_link_logout{
+		text-align: right;
+	}
+	
+	.user_name_link_logout a{
+		color: #FFF; 
+		font-size: 12px;
+		text-align: right;
+	}
+	
+	#dashboardBody > .row > .col-sm-8 {
+		width: 25%;
+	}
+	
+	.sidebar-dashboard, .sidebar-analysis, .sidebar-focusareas, .sidebar-explore, .sidebar-responses,
+	.email-help{
+		background: #ffffff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 15px;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+		font-size: 14px;
+			color: #0F0F0F;
+		width: 100%;
+		white-space: normal;
+	}
+	
+	#tab1, #tab2, #tab3 {
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0);
+		color: #ffffff;
+		/* background-repeat: no-repeat; */
+		border: none;
+		/* cursor: pointer; */
+		/* overflow: hidden; */
+		outline: none;
+		padding-bottom: 6%;
+		border-bottom: 4px solid white;
+		/* font: 14px Open Sans SemiBold; */
+		font-weight: 700;
+	}
+	
+	.box_tab2 .box{
+		/* height: 400px; */
+	}
+}
+ /* END (1366x768) WXGA Display */
+
+
+/* START (1440x900) WXGA+ Display */
+@media  screen and (min-width: 1440px) {
+    [class*='col-']{
+		padding-right:15px !important;
+	}
+	
+	.skin-black .main-header>.logo a img {
+		height: 45px;
+		margin-top: 0.125em;
+		float: left;
+	}
+	
+	.navigation{
+		position: absolute;
+		width: 78%;
+		top: -15px;
+		z-index: 1030;
+	}
+	
+	.skin-black .navigation .box-body {
+		background: #ff9800;
+		padding: 0;
+		margin-top: 1.9%;
+	}
+	
+	.user_name{
+		color: #FFF; 
+		font-size: 16px; 
+		text-align: right;
+	}
+
+	.user_name_link_logout{
+		text-align: right;
+	}
+	
+	.user_name_link_logout a{
+		color: #FFF; 
+		font-size: 12px;
+		text-align: right;
+	}
+	
+	#dashboardBody > .row > .col-sm-8 {
+		width: 25%;
+	}
+	
+	.sidebar-dashboard, .sidebar-analysis, .sidebar-focusareas, .sidebar-explore, .sidebar-responses,
+	.email-help{
+		background: #ffffff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 15px;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+		font-size: 14px;
+			color: #0F0F0F;
+		width: 100%;
+		white-space: normal;
+	}
+	
+	#tab1, #tab2, #tab3 {
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0);
+		color: #ffffff;
+		/* background-repeat: no-repeat; */
+		border: none;
+		/* cursor: pointer; */
+		/* overflow: hidden; */
+		outline: none;
+		padding-bottom: 9%;
+		border-bottom: 4px solid white;
+		/* font: 14px Open Sans SemiBold; */
+		font-weight: 700;
+	}
+	
+	.box_tab2 .box{
+		/* height: 400px; */
+	}
+}
+ /* END (1440x900) WXGA+ Display */
+
+/* START (1600x900) HD+ Display */
+@media  screen and (min-width: 1600px) {
+    [class*='col-']{
+		padding-right:15px !important;
+	}
+	
+	.skin-black .main-header>.logo a img {
+		height: 45px;
+		margin-top: 0.125em;
+		float: left;
+	}
+	
+	.navigation{
+		position: absolute;
+		width: 78%;
+		top: -20px;
+		z-index: 1030;
+	}
+	
+	.skin-black .navigation .box-body {
+		background: #ff9800;
+		padding: 0;
+		margin-top: 1.7%;
+	}
+	
+	.user_name{
+		color: #FFF; 
+		font-size: 16px; 
+		text-align: right;
+	}
+
+	.user_name_link_logout{
+		text-align: right;
+	}
+	
+	.user_name_link_logout a{
+		color: #FFF; 
+		font-size: 12px;
+		text-align: right;
+	}
+	
+	#dashboardBody > .row > .col-sm-8 {
+		width: 25%;
+	}
+	
+	.sidebar-dashboard, .sidebar-analysis, .sidebar-focusareas, .sidebar-explore, .sidebar-responses,
+	.email-help{
+		background: #ffffff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 15px;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+		font-size: 14px;
+			color: #0F0F0F;
+		width: 100%;
+		white-space: normal;
+	}
+	
+	#tab1, #tab2, #tab3 {
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0);
+		color: #ffffff;
+		/* background-repeat: no-repeat; */
+		border: none;
+		/* cursor: pointer; */
+		/* overflow: hidden; */
+		outline: none;
+		padding-bottom: 9%;
+		border-bottom: 4px solid white;
+		/* font: 14px Open Sans SemiBold; */
+		font-weight: 700;
+	}
+	
+	.box_tab2 .box{
+		/* height: 400px; */
+	}
+}
+ /* END (1600x900) HD+ Display */
+
+/* START (1680x1050) WSXGA+ Display */
+
+/* START (1920x1080) Full HD Display */
+@media  screen and (min-width: 1920px) {
+    [class*='col-']{
+		padding-right:15px !important;
+	}
+	
+	.skin-black .main-header>.logo a img {
+		height: 45px;
+		margin-top: 0.125em;
+		float: left;
+	}
+	
+	.navigation{
+		position: absolute;
+		width: 85%;
+		top: -33px;
+		z-index: 1030;
+	}
+	
+	.skin-black .navigation .box-body {
+		background: #ff9800;
+		padding: 0;
+		margin-top: 1.9%;
+	}
+	
+	.user_name{
+		color: #FFF; 
+		font-size: 16px; 
+		text-align: right;
+		margin-top: 0.4em;
+	}
+
+	.user_name_link_logout{
+		text-align: right;
+	}
+	
+	.user_name_link_logout a{
+		color: #FFF; 
+		font-size: 12px;
+		text-align: right;
+	}
+	
+	#dashboardBody > .row > .col-sm-8 {
+		width: 25%;
+	}
+	
+	.sidebar-dashboard, .sidebar-analysis, .sidebar-focusareas, .sidebar-explore, .sidebar-responses,
+	.email-help{
+		background: #ffffff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 15px;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+		font-size: 14px;
+			color: #0F0F0F;
+		width: 100%;
+		white-space: normal;
+	}
+	
+	#tab1, #tab2, #tab3 {
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0);
+		color: #ffffff;
+		/* background-repeat: no-repeat; */
+		border: none;
+		/* cursor: pointer; */
+		/* overflow: hidden; */
+		outline: none;
+		margin-top:0.7em;
+		padding-bottom: 3%;
+		border-bottom: 5px solid white;
+		/* font: 14px Open Sans SemiBold; */
+		font-weight: 700;
+	}
+	
+	.box_tab2 .box{
+		/* height: 400px; */
+	}
+}
+/* END (1920x1080) Full HD Display */
